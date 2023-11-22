@@ -24,7 +24,7 @@ const Counter = () => {
         onChange={(e)=>setAmount(e.target.value)}
          />
         <div>
-            <button onClick={()=>dispatch(increaseAmount(addValue))}>IncrementByInput</button>
+            <button onClick={()=>dispatch(increaseAmount(addValue))}>Add Amount</button>
             <button onClick={resetAll}>Reset</button>
         </div>
   </section>
