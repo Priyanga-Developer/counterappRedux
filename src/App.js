@@ -1,10 +1,10 @@
 import React from 'react'
-import Counter from './features/counter/Counter'
+import PostPage from "./Components/PostPage"
 
 const App = () => {
   return (
     <main>
-      <Counter/>
+      <PostPage/>
     </main>
   )
 }
