@@ -1,5 +1,5 @@
 import React from 'react'
-import PostPage from "./Components/PostPage"
+import PostPage from './Component/PostPage'
 
 const App = () => {
   return (
